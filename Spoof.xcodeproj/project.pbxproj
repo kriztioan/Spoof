@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		612C9E3C2697797200E9F6B4 /* SwitchViewWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 612C9E3B2697797200E9F6B4 /* SwitchViewWithLabel.m */; };
+		618E19EE23F72081006B821C /* stratego-marshal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 618E19ED23F72081006B821C /* stratego-marshal.pdf */; };
+		61B6376C23EFA04700B199C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6376B23EFA04700B199C2 /* AppDelegate.m */; };
+		61B6376E23EFA04700B199C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B6376D23EFA04700B199C2 /* Assets.xcassets */; };
+		61B6377123EFA04700B199C2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B6376F23EFA04700B199C2 /* MainMenu.xib */; };
+		61B6377423EFA04700B199C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6377323EFA04700B199C2 /* main.m */; };
+		61B6378223EFA23D00B199C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6378123EFA23D00B199C2 /* main.m */; };
+		61B6378823EFA2C100B199C2 /* SpoofHelperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6378723EFA2C100B199C2 /* SpoofHelperTool.m */; };
+		61B6378A23EFB14E00B199C2 /* stratego-spy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 61B6378923EFB14E00B199C2 /* stratego-spy.pdf */; };
+		61B6378C23EFB40C00B199C2 /* Launchd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61B6378B23EFB40C00B199C2 /* Launchd.plist */; };
+		61B6378E23EFB45400B199C2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61B6378D23EFB45400B199C2 /* Info.plist */; };
+		61B6379423EFB72D00B199C2 /* com.christiaanboersma.SpoofHelperTool in CopyFiles */ = {isa = PBXBuildFile; fileRef = 61B6377F23EFA23D00B199C2 /* com.christiaanboersma.SpoofHelperTool */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		61B6377D23EFA23D00B199C2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		61B6378F23EFB5EE00B199C2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				61B6379423EFB72D00B199C2 /* com.christiaanboersma.SpoofHelperTool in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		612C9E3A2697797200E9F6B4 /* SwitchViewWithLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchViewWithLabel.h; sourceTree = "<group>"; };
+		612C9E3B2697797200E9F6B4 /* SwitchViewWithLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchViewWithLabel.m; sourceTree = "<group>"; };
+		6139C39523F21FE70067A2B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		618E19ED23F72081006B821C /* stratego-marshal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "stratego-marshal.pdf"; sourceTree = "<group>"; };
+		61B6376723EFA04700B199C2 /* Spoof.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spoof.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B6376A23EFA04700B199C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61B6376B23EFA04700B199C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61B6376D23EFA04700B199C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61B6377023EFA04700B199C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		61B6377223EFA04700B199C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61B6377323EFA04700B199C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61B6377523EFA04700B199C2 /* Spoof.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spoof.entitlements; sourceTree = "<group>"; };
+		61B6377F23EFA23D00B199C2 /* com.christiaanboersma.SpoofHelperTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.christiaanboersma.SpoofHelperTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B6378123EFA23D00B199C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61B6378623EFA2C100B199C2 /* SpoofHelperTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpoofHelperTool.h; sourceTree = "<group>"; };
+		61B6378723EFA2C100B199C2 /* SpoofHelperTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpoofHelperTool.m; sourceTree = "<group>"; };
+		61B6378923EFB14E00B199C2 /* stratego-spy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "stratego-spy.pdf"; sourceTree = "<group>"; };
+		61B6378B23EFB40C00B199C2 /* Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Launchd.plist; sourceTree = "<group>"; };
+		61B6378D23EFB45400B199C2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F63F0A26AB292600FAD71F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61B6376423EFA04700B199C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B6377C23EFA23D00B199C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61B6375E23EFA04700B199C2 = {
+			isa = PBXGroup;
+			children = (
+				61B6376923EFA04700B199C2 /* Spoof */,
+				61B6378023EFA23D00B199C2 /* SpoofHelperTool */,
+				61B6376823EFA04700B199C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61B6376823EFA04700B199C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61B6376723EFA04700B199C2 /* Spoof.app */,
+				61B6377F23EFA23D00B199C2 /* com.christiaanboersma.SpoofHelperTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61B6376923EFA04700B199C2 /* Spoof */ = {
+			isa = PBXGroup;
+			children = (
+				61B6376A23EFA04700B199C2 /* AppDelegate.h */,
+				61B6376B23EFA04700B199C2 /* AppDelegate.m */,
+				61B6376D23EFA04700B199C2 /* Assets.xcassets */,
+				61B6376F23EFA04700B199C2 /* MainMenu.xib */,
+				61B6378923EFB14E00B199C2 /* stratego-spy.pdf */,
+				618E19ED23F72081006B821C /* stratego-marshal.pdf */,
+				61B6377223EFA04700B199C2 /* Info.plist */,
+				61B6377323EFA04700B199C2 /* main.m */,
+				61B6377523EFA04700B199C2 /* Spoof.entitlements */,
+				612C9E3A2697797200E9F6B4 /* SwitchViewWithLabel.h */,
+				612C9E3B2697797200E9F6B4 /* SwitchViewWithLabel.m */,
+			);
+			path = Spoof;
+			sourceTree = "<group>";
+		};
+		61B6378023EFA23D00B199C2 /* SpoofHelperTool */ = {
+			isa = PBXGroup;
+			children = (
+				61B6378123EFA23D00B199C2 /* main.m */,
+				61B6378D23EFB45400B199C2 /* Info.plist */,
+				61F63F0A26AB292600FAD71F /* README.md */,
+				61B6378B23EFB40C00B199C2 /* Launchd.plist */,
+				61B6378623EFA2C100B199C2 /* SpoofHelperTool.h */,
+				61B6378723EFA2C100B199C2 /* SpoofHelperTool.m */,
+			);
+			path = SpoofHelperTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61B6376623EFA04700B199C2 /* Spoof */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B6377823EFA04700B199C2 /* Build configuration list for PBXNativeTarget "Spoof" */;
+			buildPhases = (
+				61B6376323EFA04700B199C2 /* Sources */,
+				61B6376423EFA04700B199C2 /* Frameworks */,
+				61B6376523EFA04700B199C2 /* Resources */,
+				61B6378F23EFB5EE00B199C2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spoof;
+			productName = Spoof;
+			productReference = 61B6376723EFA04700B199C2 /* Spoof.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61B6377E23EFA23D00B199C2 /* SpoofHelperTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B6378323EFA23D00B199C2 /* Build configuration list for PBXNativeTarget "SpoofHelperTool" */;
+			buildPhases = (
+				61B6377B23EFA23D00B199C2 /* Sources */,
+				61B6377C23EFA23D00B199C2 /* Frameworks */,
+				61B6377D23EFA23D00B199C2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpoofHelperTool;
+			productName = SpoofHelperTool;
+			productReference = 61B6377F23EFA23D00B199C2 /* com.christiaanboersma.SpoofHelperTool */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61B6375F23EFA04700B199C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Christiaan Boersma";
+				TargetAttributes = {
+					61B6376623EFA04700B199C2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					61B6377E23EFA23D00B199C2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 61B6376223EFA04700B199C2 /* Build configuration list for PBXProject "Spoof" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61B6375E23EFA04700B199C2;
+			productRefGroup = 61B6376823EFA04700B199C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61B6376623EFA04700B199C2 /* Spoof */,
+				61B6377E23EFA23D00B199C2 /* SpoofHelperTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61B6376523EFA04700B199C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B6378E23EFB45400B199C2 /* Info.plist in Resources */,
+				61B6378C23EFB40C00B199C2 /* Launchd.plist in Resources */,
+				618E19EE23F72081006B821C /* stratego-marshal.pdf in Resources */,
+				61B6376E23EFA04700B199C2 /* Assets.xcassets in Resources */,
+				61B6378A23EFB14E00B199C2 /* stratego-spy.pdf in Resources */,
+				61B6377123EFA04700B199C2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61B6376323EFA04700B199C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612C9E3C2697797200E9F6B4 /* SwitchViewWithLabel.m in Sources */,
+				61B6377423EFA04700B199C2 /* main.m in Sources */,
+				61B6376C23EFA04700B199C2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B6377B23EFA23D00B199C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B6378223EFA23D00B199C2 /* main.m in Sources */,
+				61B6378823EFA2C100B199C2 /* SpoofHelperTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61B6376F23EFA04700B199C2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61B6377023EFA04700B199C2 /* Base */,
+				6139C39523F21FE70067A2B0 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61B6377623EFA04700B199C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					SpoofHelperTool/Info.plist,
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					SpoofHelperTool/Launchd.plist,
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		61B6377723EFA04700B199C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					SpoofHelperTool/Info.plist,
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					SpoofHelperTool/Launchd.plist,
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		61B6377923EFA04700B199C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Spoof/Spoof.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S7KDM9M54J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Spoof/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.ddns.christiaanboersma.Spoof;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		61B6377A23EFA04700B199C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Spoof/Spoof.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S7KDM9M54J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Spoof/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.christiaanboersma.Spoof;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		61B6378423EFA23D00B199C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.0;
+				DEVELOPMENT_TEAM = S7KDM9M54J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/SpoofHelperTool/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = net.ddns.christiaanboersma.SpoofHelperTool;
+				PRODUCT_NAME = com.christiaanboersma.SpoofHelperTool;
+			};
+			name = Debug;
+		};
+		61B6378523EFA23D00B199C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.0;
+				DEVELOPMENT_TEAM = S7KDM9M54J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/SpoofHelperTool/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christiaanboersma.SpoofHelperTool;
+				PRODUCT_NAME = com.christiaanboersma.SpoofHelperTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61B6376223EFA04700B199C2 /* Build configuration list for PBXProject "Spoof" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B6377623EFA04700B199C2 /* Debug */,
+				61B6377723EFA04700B199C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B6377823EFA04700B199C2 /* Build configuration list for PBXNativeTarget "Spoof" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B6377923EFA04700B199C2 /* Debug */,
+				61B6377A23EFA04700B199C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B6378323EFA23D00B199C2 /* Build configuration list for PBXNativeTarget "SpoofHelperTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B6378423EFA23D00B199C2 /* Debug */,
+				61B6378523EFA23D00B199C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61B6375F23EFA04700B199C2 /* Project object */;
+}

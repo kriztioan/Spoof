@@ -1,0 +1,12 @@
+
+/* Class = "NSWindow"; title = "Spoof Address"; ObjectID = "2aA-Ke-ZGh"; */
+"2aA-Ke-ZGh.title" = "Spoof Address";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00:00:00:00"; ObjectID = "3hG-xj-FDA"; */
+"3hG-xj-FDA.title" = "00:00:00:00:00:00";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "9XY-pJ-p2j"; */
+"9XY-pJ-p2j.title" = "Done";
+
+/* Class = "NSTextFieldCell"; title = "MAC"; ObjectID = "SWY-jI-pXi"; */
+"SWY-jI-pXi.title" = "MAC";
