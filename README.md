@@ -2,6 +2,8 @@
 
 `Spoof` is a simple MacOS status bar application for spoofing a `MAC` address. It relies on a privileged helper to set the `MAC` address of the primary interface with `ifconfig`. `Spoof` is written using `Objective-C`.
 
+![Spoof in Action](Spoof.png "Spoof in Action")
+
 ## Usage
 
 Building `Spoof` requires `Xcode` and can be build using the GUI or from the command line with:
