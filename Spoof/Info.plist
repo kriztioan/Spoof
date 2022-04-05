@@ -38,8 +38,8 @@
 	<true/>
 	<key>SMPrivilegedExecutables</key>
 	<dict>
-		<key>net.ddns.christiaanboersma.SpoofHelperTool</key>
-		<string>identifier &quot;net.ddns.christiaanboersma.SpoofHelperTool&quot; and anchor apple generic and certificate leaf[subject.CN] = &quot;Apple Development: christiaanboersma@gmail.com (Q76M55L4JP)&quot; and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		<key>com.christiaanboersma.SpoofHelperTool</key>
+		<string>identifier &quot;com.christiaanboersma.SpoofHelperTool&quot; and anchor apple generic and certificate leaf[subject.CN] = &quot;Apple Development: christiaanboersma@gmail.com (Q76M55L4JP)&quot; and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 	</dict>
 </dict>
 </plist>

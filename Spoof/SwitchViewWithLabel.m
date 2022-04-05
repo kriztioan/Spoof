@@ -18,8 +18,9 @@
         [self setFrame:frame];
         self.label = [[NSTextField alloc] initWithFrame:frame];
         [self.label setBackgroundColor:[NSColor clearColor]];
-        [self.label setFont:[NSFont systemFontOfSize:14]];
+        [self.label setFont:[NSFont menuBarFontOfSize:14.0]];
         [self.label setBezeled:NO];
+        [self.label setEnabled:NO];
         [self.label setFrameOrigin:CGPointMake(12.5, 0)];
         [self.label setFrameSize:CGSizeMake(50, 22)];
         self.toggle = [[NSSwitch alloc] initWithFrame:frame];

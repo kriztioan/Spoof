@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<string>com.christiaanboersma.SpoofHelperTool</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -12,7 +12,7 @@
 	<string>1.0</string>
 	<key>SMAuthorizedClients</key>
 	<array>
-		<string>identifier "net.ddns.christiaanboersma.Spoof" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: christiaanboersma@gmail.com (Q76M55L4JP)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		<string>identifier &quot;com.christiaanboersma.Spoof&quot; and anchor apple generic and certificate leaf[subject.CN] = &quot;Apple Development: christiaanboersma@gmail.com (Q76M55L4JP)&quot; and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 	</array>
 </dict>
 </plist>
